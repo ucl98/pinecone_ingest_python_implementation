@@ -10,8 +10,7 @@ PINECONE_INDEX_NAME = "your_pinecone_index_name"
 PINECONE_NAMESPACE = "your_pinecone_namespace"
   ```
 
-3. Add pdf's
-  Create a new folder "docs" inside the project.
+3. Create a new folder "docs" inside the project.
   Add the pdfs you want to delete or upload to pinecone in "docs".
   Remove them after you executed the program.
 
