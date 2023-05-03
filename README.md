@@ -12,7 +12,7 @@ PINECONE_NAMESPACE = "your_pinecone_namespace"
 
 3. Create a new folder "docs" inside the project.
   Add the pdfs you want to delete or upload to pinecone in "docs".
-  Remove them after you executed the program.
+  Remove them after you ingested or delete them.
 
 #### Upload to pinecone
 `python loading.py`
