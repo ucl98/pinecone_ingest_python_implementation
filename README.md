@@ -2,12 +2,13 @@
 1. Installation:
   `pip install -r requirements.txt`
 
-2. Modify the following code block in "config.py"
+2. Modify the following code block in "config.py".
   ```python
-OPENAI_API_KEY = "your_openai_api_key"
-PINECONE_API_KEY = "your_pinecone_api_key"
-PINECONE_INDEX_NAME = "your_pinecone_index_name"
-PINECONE_NAMESPACE = "your_pinecone_namespace"
+OPENAI_API_KEY = "your_OPENAI_API_KEY"
+PINECONE_API_KEY = "your_PINECONE_API_KEY"
+PINECONE_ENVIRONMENT = "your_PINECONE_ENVIRONMENT"
+PINECONE_INDEX_NAME = "your_PINECONE_INDEX_NAME"
+PINECONE_NAMESPACE = "pdfs"
   ```
 
 3. Create a new folder "docs" inside the project.
