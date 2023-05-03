@@ -3,6 +3,7 @@
   `pip install -r requirements.txt`
 
 2. Add pdf's
+  Create a new folder "docs" inside the project.
   Add the pdfs you want to delete or upload to pinecone in "docs".
   Remove them after you executed the program.
 
