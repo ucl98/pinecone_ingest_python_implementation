@@ -114,13 +114,11 @@ def removeFromPinecone(chunks):
         ids.append(hash_string(text)) # Changed this line
 
         if(i % 100 == 0):
-            print("Delete ", ids)
             index.delete(ids, namespace=namespace)
             num += len(ids)
             ids = []
               
     if(ids != []):
-        print("Delete ", ids)
         index.delete(ids, namespace=namespace)
         num += len(ids)
 
