@@ -7,11 +7,10 @@ import pinecone
 
 import os
 
-from config import OPENAI_API_KEY, PINECONE_API_KEY, PINECONE_INDEX_NAME, PINECONE_NAMESPACE
-
+from config import OPENAI_API_KEY, PINECONE_API_KEY, PINECONE_INDEX_NAME, PINECONE_NAMESPACE, PINECONE_ENVIRONMENT
 
 embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY, model="text-embedding-ada-002")
-pinecone.init(api_key=PINECONE_API_KEY, environment="")
+pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_ENVIRONMENT)
 index = PINECONE_INDEX_NAME
 index = pinecone.Index(index)
 namespace = PINECONE_NAMESPACE
