@@ -13,6 +13,7 @@ from config import OPENAI_API_KEY, PINECONE_API_KEY, PINECONE_INDEX_NAME, PINECO
 embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY, model="text-embedding-ada-002")
 pinecone.init(api_key=PINECONE_API_KEY, environment="")
 index = PINECONE_INDEX_NAME
+index = pinecone.Index(index)
 namespace = PINECONE_NAMESPACE
 
 num = 0
