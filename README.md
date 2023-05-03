@@ -1,20 +1,18 @@
 #### Setup
-1. Installation
+1. Installation:
   `pip install -r requirements.txt`
 
-2. Add pdf's
-  Add the pdfs you want to delete or upload to pinecone in "docs".
-  Remove them after you executed the program.
-
-3. Add your api-keys in config.py and set the environments
-  Modify the following code block in "loading.py" and "delete.py"
+2. Modify the following code block in "config.py"
   ```python
-    embeddings = OpenAIEmbeddings(openai_api_key="", model="text-embedding-ada-002")
-    pinecone.init(api_key="", environment="")
-    index = ""
-    index = pinecone.Index(index)
-    namespace=""
+OPENAI_API_KEY = "your_openai_api_key"
+PINECONE_API_KEY = "your_pinecone_api_key"
+PINECONE_INDEX_NAME = "your_pinecone_index_name"
+PINECONE_NAMESPACE = "your_pinecone_namespace"
   ```
+
+3. Create a new folder "docs" inside the project.
+  Add the pdfs you want to delete or upload to pinecone in "docs".
+  Remove them after you ingested or delete them.
 
 #### Upload to pinecone
 `python loading.py`
