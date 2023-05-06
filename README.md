@@ -38,7 +38,7 @@ PINECONE_NAMESPACE = "pdfs"
 #### Delete from pinecone
 `python delete.py`
 
-#### Was the ingest successful? (
+#### Was the ingest successful?
 To check wether or not the ingest process was successful, go to pinecone and see if vectors where added in the namespace you defined.
 - If my program throws no error, it is safe to assume that everything was correct.
 
