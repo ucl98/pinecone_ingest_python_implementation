@@ -10,14 +10,14 @@
   ![image](https://user-images.githubusercontent.com/132441647/236612075-22b00aaf-ffe9-4de7-b0a2-5e59bb209931.png)
 
 1. Installation:
-  1. Option 1: pip install:
-  Type `pip install -r requirements.txt` in the project's terminal.
+  - Option 1: pip install:
+    Type `pip install -r requirements.txt` in the project's terminal.
   
-  2. Option 2: If that is not working, install the dependencies one by one: 
-  Install the following depencencies at the projects terminal
-  `pip install langchain`
-  `pip install pinecone-client`
-  `pip install pypdf`
+  - Option 2: If that is not working, install the dependencies one by one: 
+    Install the following depencencies at the projects terminal
+    `pip install langchain`
+    `pip install pinecone-client`
+    `pip install pypdf`
 
 2. Modify the following code block in "config.py".
   ```python
