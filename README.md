@@ -5,7 +5,7 @@
 #### Setup
 0. Forwords:
   This project is not part of gpt4-pdf-chatbot-langchain. Both projects should not be combined.
-  However, when you use this project to ingest your files, you will still see them in the chatbot of gpt4-pdf-chatbot-langchain.
+  However, when you use this project to ingest your files, you will still see them in the chatbot of gpt4-pdf-chatbot-langchain, IF the pinecone index and the namespaces in both projects are the same.
 
   ![image](https://user-images.githubusercontent.com/132441647/236612075-22b00aaf-ffe9-4de7-b0a2-5e59bb209931.png)
 
