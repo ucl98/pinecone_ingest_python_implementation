@@ -1,6 +1,7 @@
 #### My specs
 - OS: macOS Ventura 
 - Python: 3.11.2
+  - https://www.python.org/downloads/release/python-3112/
 
 #### Setup
 0. Forewords:
@@ -11,7 +12,7 @@
 
 1. Installation:
   - Option 1: pip install:
-    Type `pip install -r requirements.txt` in the project's terminal.
+    Type `pip install -r requirements.txt` in the project's terminal.   
   
   - Option 2: If that is not working, install the dependencies one by one: 
     Install the following depencencies at the projects terminal
