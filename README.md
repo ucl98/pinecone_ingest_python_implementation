@@ -33,7 +33,7 @@ PINECONE_NAMESPACE = "pdfs"
   Remove them after you ingested or delete them.
 
 #### Upload to pinecone
-`python loading.py`
+`python ingest.py`
 
 #### Delete from pinecone
 `python delete.py`
