@@ -1,6 +1,6 @@
 #### My specs
-OS: MacOs Ventura
-Python: 3.11.2
+- OS: MacOs Ventura
+- Python: 3.11.2
 
 #### Setup
 0. Forwords:
