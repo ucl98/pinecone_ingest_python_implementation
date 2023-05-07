@@ -3,6 +3,10 @@
 - Python: 3.11.2
   - https://www.python.org/downloads/release/python-3112/
 
+#### Bonus
+With pdf files ingested using this repository, you can add links to your sources that bring you to the pdf + page it is from.
+- https://github.com/ucl98/gpt4_langchain_pdf_open_source_link/tree/main
+
 #### Setup
 0. Forewords:
   This project is not part of gpt4-pdf-chatbot-langchain. Both projects should not be combined.
